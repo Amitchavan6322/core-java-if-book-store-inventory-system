@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77d1b2d-1101-406d-b43d-b89f1b038a5f" name="Changes" comment="" />
+    <list default="true" id="d77d1b2d-1101-406d-b43d-b89f1b038a5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/BookStoreInventorySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStoreInventorySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amit/book/inventory/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amit/book/inventory/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amit/book/inventory/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amit/book/inventory/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amit/book/inventory/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amit/book/inventory/model/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amit/book/inventory/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amit/book/inventory/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amit/book/inventory/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amit/book/inventory/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amit/book/inventory/service/SupplierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amit/book/inventory/service/SupplierService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,16 +31,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BookStoreInventorySystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/_training/core-java-if-book-store-inventory-systems/src"
+    "last_opened_file_path": "E:/_training/core-java-hashset-book-store-inventory-system"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\_training\core-java-if-book-store-inventory-systems\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BookStoreInventorySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookStoreInventorySystem" />
+      <module name="core-java-if-book-store-inventory-systems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookStoreInventorySystem" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

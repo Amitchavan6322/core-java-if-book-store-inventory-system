@@ -1,22 +1,26 @@
 package com.amit.book.inventory.model;
 
-public class BookInfo {
+public class Book {
     private int bookID;
     private String Name;
     private String author;
-    private String publication;
-    private String language;
+    private String publisher;
+    private int noOfCopies;
     private String category;
+    private String storeLocation;
+    private int price;
 
     @Override
     public String toString() {
-        return "InventoryInfo{" +
+        return "Book{" +
                 "bookID=" + bookID +
                 ", Name='" + Name + '\'' +
                 ", author='" + author + '\'' +
-                ", publication='" + publication + '\'' +
-                ", language='" + language + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", noOfCopies=" + noOfCopies +
                 ", category='" + category + '\'' +
+                ", storeLocation='" + storeLocation + '\'' +
+                ", price=" + price +
                 '}';
     }
 
@@ -44,20 +48,20 @@ public class BookInfo {
         this.author = author;
     }
 
-    public String getPublication() {
-        return publication;
+    public String getPublisher() {
+        return publisher;
     }
 
-    public void setPublication(String publication) {
-        this.publication = publication;
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
     }
 
-    public String getLanguage() {
-        return language;
+    public int getNoOfCopies() {
+        return noOfCopies;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
+    public void setNoOfCopies(int noOfCopies) {
+        this.noOfCopies = noOfCopies;
     }
 
     public String getCategory() {
@@ -66,5 +70,21 @@ public class BookInfo {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public String getStoreLocation() {
+        return storeLocation;
+    }
+
+    public void setStoreLocation(String storeLocation) {
+        this.storeLocation = storeLocation;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 }
